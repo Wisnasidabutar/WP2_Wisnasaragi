@@ -24,13 +24,15 @@
                     <th>:</th>
                     <td>
                         <input type="text" name="kode" id="kode">
+                        <div style="color : red;"><?= form_error('kode');?></div>
                     </td>
                 </tr>
                 <tr>
                     <th>Nama Mtk</th>
                     <td>:</td>
                     <td>
-                        <input type="text" name="nama" id="nama">
+                        <input type="text" name="nama" id="kode">
+                        <div style="color : red;"><?= form_error('kode');?></div>
                     </td>
                 </tr>
                 <tr>
